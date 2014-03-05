@@ -1,0 +1,232 @@
+body
+{
+	margin: 0;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header
+{
+	background-color: #2c3e5c;
+	height: 70px;
+	width: 100%;
+}
+
+.header-contain
+{
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.logo
+{
+	height: 48px;
+	width: 184px;
+	background-image: url("images/logo.png");
+}
+
+.header-links
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+	bottom: 32px;
+	position: relative;
+}
+
+a
+{
+	color: #939393;
+	text-decoration: none;
+}
+
+
+
+a.useful-links
+{
+	color: #356aa0;
+}
+
+a.nav-links
+{
+	color: white;
+}
+
+#banner
+{
+	background-image: url("images/banner-texture.png");
+	height: 170px;
+	width: 100%;
+}
+
+.banner-contain
+{
+	margin: 0 auto;
+	width: 940px;
+}
+
+.main-text
+{
+	font-size: 55px;
+	color: #939393;
+	text-align: center;
+	padding-top: 22px;
+}
+
+.sub-text
+{
+	font-size: 22px;
+	color: #939393;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#content
+{
+	width: 940px;
+	margin: 0 auto;
+	color: #707070;
+}
+
+#board
+{
+	margin-top: 40px;
+}
+
+table
+{
+	width: 940px;
+	font-family: Consolas;
+}
+
+li
+{
+	list-style: none;
+}
+
+td.header
+{
+	font-size: 20px;
+	color: white;
+	background-color: #4c4c4c;
+	padding: 15px 0 15px 0;
+	border: 1px solid #4c4c4c;
+	text-align: center;
+	font-weight: bold;
+}
+
+td.event-apps-1
+{
+	border: 1px solid #E2E2E2;
+	font-size: 18px;
+	color: #939393;
+}
+
+td.timer-apps-1
+{
+	border: 1px solid #E2E2E2;
+	font-size: 18px;
+	color: #939393;
+}
+
+td.ui-apps-1
+{
+	border: 1px solid #E2E2E2;
+	font-size: 18px;
+	color: #939393;
+}
+
+.view-arrow
+{
+	display: none;
+	position: absolute;
+	right: 9px;
+	top: 3px;
+	font-size: 14px;
+}
+
+li.event-apps-1:hover .view-arrow
+{
+	display: block;
+}
+
+li.timer-apps-1:hover .view-arrow
+{
+	display: block;
+}
+
+li.ui-apps-1:hover .view-arrow
+{
+	display: block;
+}
+
+a.events:hover
+{
+	color: #004227;
+}
+
+a.timer:hover
+{
+	color: #f25a18;
+}
+
+a.ui:hover
+{
+	color: #3377bb;
+}
+
+li.event-apps-1
+{
+	background-color: #EAEAEA;
+	position: relative;
+	border-left: 4px solid #004227;
+	width: 230px;
+	height: 100px;
+	margin: 35px 32px 35px 0;
+}
+
+li.timer-apps-1
+{
+	background-color: #EAEAEA;
+	position: relative;
+	border-left: 4px solid #f25a18;
+	width: 230px;
+	height: 100px;
+	margin: 35px 32px 35px 0;
+}
+
+li.ui-apps-1
+{
+	background-color: #EAEAEA;
+	position: relative;
+	border-left: 4px solid #3377bb;
+	width: 230px;
+	height: 100px;
+	margin: 35px 32px 35px 0;
+}
+
+.card-title
+{
+	padding: 20px;
+}
+
+.csharp
+{
+	font-size: 16px;
+	color: #c0c0c0;
+	float: right;
+	position: relative;
+	bottom: 8px;
+	right: 7px;
+}
+
+.csharp2
+{
+	font-size: 16px;
+	color: #c0c0c0;
+	float: right;
+	position: relative;
+	bottom: -11px;
+	right: 5px;
+}
